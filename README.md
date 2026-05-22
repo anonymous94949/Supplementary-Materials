@@ -2,7 +2,7 @@
 
 ---
 
-## A.1 Dataset Overview
+## 1 Dataset Overview
 
 We release a street-view-based walkability dataset constructed from Google Street View (GSV) imagery collected in Seoul, South Korea. The released dataset includes urban expert-validated walkability labels to support research on urban perception and walkability prediction.
 
@@ -17,8 +17,8 @@ We release a street-view-based walkability dataset constructed from Google Stree
 | Dataset Access | [link](https://drive.google.com/file/d/1gABWyi01Ci0p559x-fGU6amQNLLqaOrE/view?usp=sharing)  |
 | Metadata Access | [link](https://drive.google.com/drive/folders/1jX8LKIZ_0Lh-JEQlu2A8MyXcFhro0R4b?usp=sharing) |
 
-## A.2 Dataset Construction
-In this section, we describe the dataset construction pipeline used to build the proposed street-view-based walkability dataset. The pipeline consists of three stages: (1) GSV image collection and preprocessing, (2) filtering non-walkable areas, and (3) urban expert validation for label consistency.
+## 2 Dataset Construction
+The dataset construction pipeline consists of three stages: (1) GSV image collection and preprocessing, (2) filtering non-walkable areas, and (3) urban expert validation for label consistency.
 
 ### Survey-based Walkability Collection
 To obtain walkability labels, we conducted an online survey with 2,510 residents of Seoul, South Korea. Participants rated the walkability of their residential areas using a 7-point Likert scale, reflecting perceived safety, comfort, and aesthetic quality. Detailed demographic statistics are summarized in Table 1.
@@ -111,7 +111,7 @@ Following prior works highlighting that pedestrian experience depends on micro-s
 | 6 | $3 \leq \text{score} < 5$ |
 | 7 | $5 \leq \text{score} < 7$ |
 
-*Table 3: Urban Expert Annotation Guideline and Scoring Criteria*
+*Table 2: Urban Expert Annotation Guideline and Scoring Criteria*
 
 ### Final Dataset Statistics
 Following urban expert validation, we analyze the distribution of feature scores using kernel density estimation (KDE), as illustrated in Figure 3. Adjacent score categories exhibit highly overlapping distributions, motivating the consolidation of the original 7-point scale into a 4-class walkability benchmark.
@@ -127,4 +127,4 @@ Following urban expert validation, we analyze the distribution of feature scores
 |--------|-----|-----|-----|-----|-------|
 | Images | 815 | 934 | 954 | 707 | 3410  |
 
-*Table 2: Class Distribution of the Final Dataset*
+*Table 3: Class Distribution of the Final Dataset*
