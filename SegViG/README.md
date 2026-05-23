@@ -7,8 +7,8 @@ This repository contains the implementation of **SegViG**, an end-to-end walkabi
 **1. Download dataset, checkpoint, and pre-trained weights**
 
 - Dataset (images + CSV files): **[https://github.com/anonymous94949/Dataset](https://github.com/anonymous94949/Dataset)**
-- Trained checkpoint: **[LINK]**
-- ViG-B pre-trained weights: **[LINK2]**
+- Trained checkpoint: **[LINK](https://drive.google.com/file/d/1xjt3Nl6ryGNep98U_a-30NZ-2HI7tSKG/view?usp=sharing)**
+- ViG-B pre-trained weights: **[LINK](https://drive.google.com/file/d/1uVJVIzEUFgicuNBJfgE6IpNefbZseTVY/view?usp=sharing)**
 
 **2. Extract and place files**
 
